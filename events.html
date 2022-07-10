@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="events.css" />
+    <link rel="stylesheet" href="css/rocket.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/hover.css" />
+    <link rel="stylesheet" href="css/eventCard.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="menu">
+        <img class="image" src="images/logo.png" alt="" />
+        <ul class="subnav s1" id="primary">
+          <li><a href="#current">Current Event</a></li>
+        </ul>
+        <ul class="subnav s2" id="primary">
+          <li><a href="#past">Past Events</a></li>
+        </ul>
+        <ul class="subnav s3" id="primary">
+          <li><a href="#future">Future Events</a></li>
+        </ul>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://forms.gle/jRUJ5VmysHHVA6326" target="_blank">
+      <div class="rocket">
+        <div class="loader">
+          <i></i>
+          <div class="shadow1"></div>
+        </div>
+        <div class="icons">
+          <i class="fas fa-rocket"></i>
+          <div class="clouds">
+            <i class="fas fa-cloud" style="--i: 1"></i
+            ><i class="fas fa-cloud" style="--i: 2"></i
+            ><i class="fas fa-cloud" style="--i: 3"></i
+            ><i class="fas fa-cloud" style="--i: 4"></i>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <div class="container">
+      <div class="main-container">
+        <div class="main">
+          <!-- Header -->
+
+          <header>
+            <div class="overlay">
+              <div class="inner">
+                <div class="scene">
+                  <div class="events" id="events">
+                    <div class="events-container">
+                      <div class="current" id="current">
+                        <center>
+                          <h1 class="H1">Current Event</h1>
+                        </center>
+                        <div class="infoContainer">
+                          <div class="infoCard currentEvent">
+                            <div class="pictureDiv currDiv">
+                              <img
+                                class="picture currentimage"
+                                src="images/astraLens.jpg"
+                                alt="Astra Lens"
+                              />
+                            </div>
+                            <div class="content">
+                              <div class="head">
+                                <div class="date">
+                                  <div class="calendar">
+                                    <p id="month">June</p>
+                                    <p id="day">27</p>
+                                    <p id="year">2022</p>
+                                  </div>
+                                </div>
+                                <div class="title">Astra Lens</div>
+                              </div>
+
+                              <div class="info">
+                                This is an online astrophotography contest for
+                                all the stargazers out there. The contest will
+                                run from 22nd to 31st October 2021. The
+                                competition will be divided into 2 categories,
+                                namely the Phone category and the Discrete
+                                Camera Category. The same rules and scoring
+                                system are valid for both the categories.
+                                Participants have to submit only one entry (One
+                                of the best pictures that they have clicked).
+                                The picture to be submitted must be shot after
+                                0000 hrs IST, 1 st October, 2021. Participants
+                                will be required to upload their submissions
+                                within the form link provided below. The
+                                photographs will be judged on both the technical
+                                aspects and their popularity on social media.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <div class="mainbody">
+            <div class="pastEvents" id="past">
+              <center>
+                <h1 class="H1">Past Events</h1>
+              </center>
+
+              <div class="outer">
+                <div class="structure">
+                  <div class="infoCard pastEvent">
+                    <div class="pictureDiv">
+                      <img
+                        class="picture"
+                        src="images/cosmicConclave.jpg"
+                        alt="Astra Lens"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <div class="date">
+                          <div class="calendar">
+                            <p id="month">October</p>
+                            <p id="day">20</p>
+                            <p id="year">2021</p>
+                          </div>
+                        </div>
+                        <div class="title">Cosmic Conclave</div>
+                      </div>
+
+                      <div class="info">
+                        Cosmic Conclave is a regular event of our club. In this
+                        event our club gathers space lovers on the same line, to
+                        do various activities for fun. And it also aims to
+                        provide an open window for interaction with others in
+                        the field to do the exchange of thoughts with each
+                        other. Presently in this event, we broadcast episodes of
+                        the famed show "Cosmos - A Space Time Odyssey", which
+                        were followed by doubt clearing sessions and a quiz
+                        related to the episode theme. Sometimes we also
+                        broadcast events of importance in the Astro field that
+                        are recognized to be a history-making event and are also
+                        famous around the globe(like. the first flight of
+                        Ingenuity and the touchdown of the Perseverance rover).
+                        We are planning to add more activities to this event
+                        very soon.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="infoCard pastEvent">
+                    <div class="pictureDiv">
+                      <img
+                        class="picture"
+                        src="images/allAbode.jpg"
+                        alt="Astra Lens"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <div class="date">
+                          <div class="calendar">
+                            <p id="month">April</p>
+                            <p id="day">10</p>
+                            <p id="year">2021</p>
+                          </div>
+                        </div>
+                        <div class="title">All Abode</div>
+                      </div>
+
+                      <div class="info">
+                        All Abode was a hackathon organized by Cosmology Club.
+                        The topic of the hackathon was Mars Exploration and
+                        Colonization. In this project team of 3 was formed
+                        comprising of students from DTU and outside DTU. The
+                        problem statement given to all the teams was that : "
+                        The year is 2030 and there is an impending doom on the
+                        very existence of human life. The Scientist and
+                        astronomers at ISRO have detected an asteroid that is on
+                        its way to strike Earth. The impact will be apocalyptic,
+                        even larger than the 'Chicxupub impactor ' one that
+                        wiped out all the dinosaurs and humans have now no
+                        choice except to ' Relocate! '. After many days of
+                        discussions by space agencies, they have created a team
+                        of a few astronomers and scientists to come up to devise
+                        a plan to start a colony. " The duration of the
+                        Hackathon was 6 days in which teams were challenged to
+                        create a foolproof plan for colonization on Mars,
+                        including construction, food supply, maintenance,
+                        disaster management, and all other necessities of life.
+                        The winners were awarded a certificate and discovery
+                        plus subscription of 1 year whereas runners-up were also
+                        awarded a discovery plus subscription of 1 month
+                      </div>
+                    </div>
+                  </div>
+                  <div class="infoCard pastEvent">
+                    <div class="pictureDiv">
+                      <img
+                        class="picture"
+                        src="images/blackHole.jpg"
+                        alt="Astra Lens"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <div class="date">
+                          <div class="calendar">
+                            <p id="month">June</p>
+                            <p id="day">19</p>
+                            <p id="year">2021</p>
+                          </div>
+                        </div>
+                        <div class="title">Seminars</div>
+                      </div>
+
+                      <div class="info">
+                        Cosmology Club DTU in collaboration with AlgoCs has
+                        organized a spectacular session on black holes on 19th
+                        June 2021. The event saw huge participation from
+                        students of different colleges across the country. The
+                        session was taken by Arshpreet Singh who is currently
+                        pursuing astrophysics from the University of Victoria,
+                        Canada. It was an amazing session and all the
+                        participants got a deep insight into black holes. This
+                        was followed by a doubt session in which all the doubts
+                        of the participants were cleared by the research team of
+                        Celestial Flare. The session ended with a mind-blowing
+                        quiz on black holes and the winners of the quiz were
+                        given exciting prizes.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="infoCard pastEvent" id="skyGrazing">
+                    <div class="pictureDiv">
+                      <img
+                        class="picture"
+                        src="images/groupMembers.jpg"
+                        alt="Astra Lens"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <div class="date">
+                          <div class="calendar">
+                            <p id="month">November</p>
+                            <p id="day">17</p>
+                            <p id="year">2019</p>
+                          </div>
+                        </div>
+                        <div class="title">Sky Gazing</div>
+                      </div>
+
+                      <div class="info">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Soluta nemo aut accusamus quidem nesciunt facere minima
+                        qui voluptatem, cum, unde sequi voluptatibus rem earum,
+                        id ullam est non dolorum culpa. Provident placeat
+                        dignissimos soluta, obcaecati delectus temporibus
+                        aspernatur sunt consectetur vero itaque nesciunt
+                        repudiandae, at necessitatibus dolorem vitae dolores vel
+                        est? Aliquid, fugiat. Veniam ex fuga, qui asperiores
+                        perferendis quis. Cupiditate non nobis magni error
+                        voluptatum. Ducimus earum quaerat dicta. Magnam omnis
+                        illum necessitatibus at aut nulla soluta. Perferendis
+                        reiciendis, exercitationem commodi impedit magnam
+                        provident ut at quae obcaecati vero? Possimus, fugit
+                        voluptates quos tempore cupiditate nemo, fugiat quis
+                        expedita aut
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="futureEvents" id="future">
+              <center>
+                <h1 class="H1">Future Events</h1>
+              </center>
+
+              <div class="outer">
+                <div class="structure">
+                  <div class="infoCard futureEvent">
+                    <div class="pictureDiv">
+                      <img
+                        class="picture"
+                        src="images/cubeSat.png"
+                        alt="Astra Lens"
+                      />
+                    </div>
+                    <div class="content">
+                      <div class="head">
+                        <div class="date">
+                          <!-- <div class="calendar">
+                            <p id="month">June</p>
+                            <p id="day">27</p>
+                            <p id="year">2022</p>
+                          </div> -->
+                        </div>
+                        <div class="title">Cubesat Designing</div>
+                      </div>
+
+                      <div class="info">
+                        A CubeSat is a type of miniaturized satellite for space
+                        research that is made up of multiple cubic modules of 10
+                        cm × 10 cm × 10 cm size. CubeSats have a mass of no more
+                        than 1.33 kilograms per unit, and often use commercial
+                        off-the-shelf (COTS) components for their electronics
+                        and structure. CubeSats are commonly put in orbit by
+                        deployers on the International Space Station or launched
+                        as secondary payloads on a launch vehicle. As of 1
+                        January 2021, more than 1350 CubeSats have been
+                        launched. More than 1200 have been successfully deployed
+                        in orbit and more than 90 have been destroyed in launch
+                        failures The CubeSat specification accomplishes several
+                        high-level goals.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Footer -->
+
+            <footer>
+              <div class="foot">
+                <div class="ftext">
+                  <a href="#location" style="color: #fff" target="_blank"
+                    ><i class="fas fa-map-marker-alt fa-2x"></i
+                  ></a>
+                  &nbsp;&nbsp; Address
+                  <div class="fhead">Cosmology Club of DTU</div>
+                  <div class="fsub">Rohini</div>
+                  <div class="fsub">Delhi</div>
+                </div>
+                <div class="Icons">
+                  <span>
+                    <a
+                      href="mailto:cosmologyclub.dtu.ac.in"
+                      target="_blank"
+                      style="color: #fff"
+                      ><i class="far fa-envelope fa-3x"></i
+                    ></a>
+                    &nbsp; &nbsp;
+                    <a
+                      href="https://discord.gg/2N8pTMVm"
+                      target="_blank"
+                      style="color: #fff"
+                      ><i class="fab fa-discord fa-3x"></i
+                    ></a>
+                    &nbsp; &nbsp;
+                    <a
+                      href="https://chat.whatsapp.com/DXLnh8uiLU25kd8igDD0EN"
+                      target="_blank"
+                      style="color: #fff"
+                      ><i class="fab fa-whatsapp fa-3x"></i
+                    ></a>
+                    &nbsp; &nbsp;
+                    <a
+                      href="https://www.linkedin.com/company/celestial-flare/"
+                      target="_blank"
+                      style="color: #fff"
+                      ><i class="fab fa-linkedin fa-3x"></i
+                    ></a>
+                    &nbsp; &nbsp;
+                    <a
+                      href="https://www.instagram.com/cosmologyclub.dtu/"
+                      target="_blank"
+                      style="color: #fff"
+                      ><i class="fab fa-instagram fa-3x"></i
+                    ></a>
+                  </span>
+                </div>
+              </div>
+              <div class="endtext">
+                <center>Copyrights @Cosmology Club of DTU</center>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+      </div>
+
+      <div class="links">
+        <ul>
+          <li>
+            <a href="home.html" class="home">Home</a>
+          </li>
+          <li>
+            <a href="events.html">Events</a>
+          </li>
+          <li>
+            <a href="achievements.html">Achievements</a>
+          </li>
+          <li>
+            <a href="archive.html">Archive</a>
+          </li>
+          <li>
+            <a href="team.html" class="team">Team</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/home.js"></script>
+  </body>
+</html>

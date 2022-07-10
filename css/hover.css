@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#primary li a {
+  text-decoration: none;
+  
+  padding: 5px 0;
+  padding-left: 0px;
+  font-family: "belleza", cursive;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 800;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #23abd4, #23abd4 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  transition: all 0.3s ease-in-out;
+}
+#primary li a:before {
+  
+  content: "";
+  width: 0;
+  height: 3px;
+  bottom: 5px;
+  left: 0;
+  bottom: -3px;
+  z-index: 0;
+  position: absolute;
+  background: #23abd4;
+  transition: all 0.3s ease-in-out;
+}
+#primary li a:hover {
+  background-position: 0%;
+}
+#primary li a:hover:before {
+  width: 100%;
+}
